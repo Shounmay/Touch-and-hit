@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+
+.score_board {
+  position: absolute;
+  color: white;
+  margin-left: 2%;
+  margin-top: 1%;
+  user-select: none;
+}
+.modal-container {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-bg {
+  background-color: white;
+  width: 35%;
+  padding: 2%;
+  text-align: center;
+}
+
+.modal-bg h1 {
+  font-weight: bolder;
+  line-height: 0.7;
+  font-size: 72pt;
+}
+.modal-bg p {
+  padding-bottom: 5%;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.start-game-btn button {
+  background-color: blueviolet;
+  width: 100%;
+  padding: 2%;
+  font-weight: bolder;
+  font-size: 25pt;
+  color: white;
+  cursor: pointer;
+  border-radius: 9999px;
+}
